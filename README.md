@@ -34,7 +34,8 @@ Optimisation basique du SEO, envoi du projet sur Github et hébergement avec ver
 
 # Utilitaires
 
-## [Maquette](https://www.figma.com/file/v18Y99mekvztIIQuhXs1ij/Portfolio-design?node-id=0%3A1&t=INyPmf4gT13Q6DIe-1)
+## [Maquette](./public/assets/maquette.fig)
+./public/assets/maquette.fig
 https://www.figma.com/file/v18Y99mekvztIIQuhXs1ij/Portfolio-design?node-id=0%3A1&t=INyPmf4gT13Q6DIe-1
 
 ## [Site](https://tuto-css.vercel.app/)
