@@ -2,7 +2,7 @@
 
 <img src="./public/affiche.jpg"/>
 
-Integration complete d'une [maquette](https://www.figma.com/file/v18Y99mekvztIIQuhXs1ij/Portfolio-design?node-id=0%3A1&t=INyPmf4gT13Q6DIe-1)
+## Integration complete d'une [maquette](https://www.figma.com/file/v18Y99mekvztIIQuhXs1ij/Portfolio-design?node-id=0%3A1&t=INyPmf4gT13Q6DIe-1)
 
 # Chapitres
 
@@ -31,3 +31,12 @@ Utilisation de l'API javascript `Intersection Observer` pour savoir quand un ele
 
 ## Chapitre 6: Github, SEO et hébergement
 Optimisation basique du SEO, envoi du projet sur Github et hébergement avec versel
+
+# Utilitaires
+
+## [Maquette](https://www.figma.com/file/v18Y99mekvztIIQuhXs1ij/Portfolio-design?node-id=0%3A1&t=INyPmf4gT13Q6DIe-1)
+https://www.figma.com/file/v18Y99mekvztIIQuhXs1ij/Portfolio-design?node-id=0%3A1&t=INyPmf4gT13Q6DIe-1
+
+## [Site](https://tuto-css.vercel.app/)
+https://tuto-css.vercel.app/
+
