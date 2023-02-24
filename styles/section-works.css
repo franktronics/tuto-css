@@ -1,0 +1,81 @@
+#works{
+    padding-top: 200px;
+}
+#works>main{
+    display: grid;
+    grid-template-columns: 0.75fr 0.75fr 1fr 1fr;
+    align-items: center;
+    column-gap: 50px;
+    row-gap: 68px;
+}
+#works>main>aside{
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 3;
+}
+#works>h2{
+    margin-bottom: 150px;
+    text-align: center;
+}
+#works>h2>span{
+    color: var(--primary);
+}
+#works>main p{
+    font-size: 12px;
+    color: var(--dark2);
+    font-weight: 200px;
+    margin-block: 20px;
+}
+#works>main a{
+    font-size: 12px;
+    color: var(--primary);
+    font-weight: 400px;
+    display: flex;
+    align-items: center;
+}
+#works>main a:hover{
+    color: var(--dark1);
+}
+#works>main a>svg{
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+}
+@media all and (max-width: 1000px){
+    #works>main{
+        grid-template-columns: 1fr 1fr;
+    }
+    #works>main>aside{
+        grid-column: 1 / span 2;
+        grid-row: 1;
+        display: flex;
+        justify-content: center;
+    }
+    #works>main>aside>div{
+        width: 100%;
+        max-height: 300px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        border-radius: 6px;
+    }
+    #works>main>aside>div>img{
+        width: 100%;
+    }
+}
+@media all and (max-width: 450px){
+    #works{
+        padding-top: 100px;
+    }
+    #works>h2{
+        margin-bottom: 50px;
+    }
+}
+@media all and (max-width: 400px){
+    #works>main{
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    #works>main>aside{
+        grid-column: 1;
+    }
+}

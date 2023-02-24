@@ -1,0 +1,23 @@
+#footer{
+    padding-block: 110px;
+    background-color: var(--accent3);
+    text-align: center;
+}
+#footer>p{
+    margin-block: 20px 100px;
+    max-width: 650px;
+    margin-inline: auto;
+}
+#footer>div{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+}
+
+@media all and (max-width: 450px) {
+    #footer{
+        padding-block: 50px;
+    }
+}

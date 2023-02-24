@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;800&display=swap');
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --primary: #4338CA;
+  --white: #fff;
+  --dark1: #1F2937;
+  --dark2: #6B7280;
+  --dark3: #9CA3AF;
+  --accent1: #B4A6A2;
+  --accent2: #EEEBFF;
+  --accent3: #FEF2F2;
+}
+
+*, *::before, *::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+body{
+  width: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+a, li{
+  list-style-type: none;
+  text-decoration: none;
+  color: inherit;
+}
+.logo{
+  width: 62px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: var(--accent2);
+  color: var(--primary);
+  font-weight: 400;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotateZ(30deg);
+}
+
+.center{
+  padding-inline: 20px;
+}
+@media all and (min-width: 1180px){
+  .center{
+    padding-inline: calc((100vw - 1180px) / 2);
+  }
+}
+
+.btn{
+  display: inline-block;
+  padding-inline: 32px;
+  padding-block: 12px;
+  background-color: var(--primary);
+  color: var(--white);
+  border-radius: 6px;
+  border: 1px solid var(--primary);
+  transition: .3s color ease-in-out, .3s background-color ease-in-out;
+}
+.btn:hover{
+  background-color: var(--white);
+  color: var(--primary);
+}
+.btn-outline{
+  background-color: var(--white);
+  color: var(--primary);
+}
+.btn-outline:hover{
+  background-color: var(--primary);
+  color: var(--white);
+}
+/**************/
+.mb-title{
+  color: var(--dark1);
+  font-weight: bold;
+  line-height: 100%;
+  font-size: 72px;
+}
+.mb1{
+  font-size: 48px;
+  line-height: 100%;
+  font-weight: 400;
+  color: var(--dark1);
+}
+.mb3{
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--dark1);
+}
+@media all and (max-width: 450px) {
+  .mb-title{
+    font-size: 44px;
+  }
+  .mb1{
+    font-size: 30px;
+  }
+}
+/*************/
+.hamb{
+  width: 62px;
+  height: 62px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hamb>span{
+  width: 30px;
+  height: 2px;
+  display: block;
+  border-radius: 2px;
+  background: var(--primary);
+}
+.hamb>span:first-child{
+  transform: translateY(-8px);
+}
+.hamb>span:last-child{
+  transform: translateY(8px);
+}
