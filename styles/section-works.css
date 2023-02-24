@@ -64,7 +64,7 @@
 }
 @media all and (max-width: 450px){
     #works{
-        padding-top: 100px;
+        padding-top: 50px;
     }
     #works>h2{
         margin-bottom: 50px;
