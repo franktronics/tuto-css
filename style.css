@@ -33,6 +33,10 @@ body{
   position: relative;
   overflow-x: hidden;
 }
+html{
+  width: 100%;
+  overflow: hidden;
+}
 a, li{
   list-style-type: none;
   text-decoration: none;
